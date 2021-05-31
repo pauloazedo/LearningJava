@@ -13,6 +13,8 @@ public class OperadoresLogicosNot {
 		boolean test = !(x < 18);
 		
 		System.out.println("Maioridade: " + test);
+		
+		reader.close();
 
 	}
 
