@@ -10,8 +10,8 @@ public class VerificaParOuImpar {
 		int numero1 = sc.nextInt();
 		System.out.println("Digite o segundo número: ");
 		int numero2 = sc.nextInt();
-		int soma = numero1 + numero2;
-		if ( soma % 2 == 0 ) {
+		boolean soma = ((numero1 + numero2) % 2) == 0;
+		if ( soma ) {
 			System.out.println("Resultado é Par");
 		} else {
 			System.out.println("Resultado é impar");
