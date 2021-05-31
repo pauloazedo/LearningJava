@@ -14,7 +14,7 @@ public class OperadoresLogicosXor {
 		
 		System.out.println(test);
 		
-			
+		leitor.close();	
 		
 	}
 
